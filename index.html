@@ -3,22 +3,307 @@
 <head>
 
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Nathan Wisla's Profile</title>
 
 
     <!--    styles-->
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <link rel="stylesheet" href="styles/styles.css">
     <!--    scripts-->
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
 
     <script src="scripts/main.js"></script>
 
 </head>
 <body>
-    <header></header>
-    <img src="images/Aurora.png" height="2550" width="3300"/>
-    <footer></footer>
+<header>
+    <nav class="navbar navbar-expand-lg pt-0 pb-0 navbar-light bg-light">
+        <a class="navbar-brand" href="#">Nathan Wisla</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item click disabled active">
+                    <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item click">
+                    <a class="nav-link" href="#profile">Profile</a>
+                </li>
+                <li class="nav-item click">
+                    <a class="nav-link" href="#gallery">Map Gallery</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                       data-toggle="dropdown">
+                        Projects
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item"
+                           href="https://esricanada-ce.github.io/ecce-app-challenge-2021/COGS_Rocky_Mountain_Edition/app/"
+                           target="_blank">
+                            ECCE App Challenge
+                        </a>
+                        <a class="dropdown-item" href="https://nathanwisla.github.io/FindYourEnemy/" target="_blank">
+                            Leaflet
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="https://github.com/nathanwisla" target="_blank">
+                            Github Repository
+                        </a>
+                    </div>
+                </li>
+            </ul>
+            <div id="social-media">
+                <a class="btn" href="https://twitter.com/argh_natey" target="_blank">
+                    <img src="images/icons/twitter.svg" style="height:2em">
+                </a>
+                <a class="btn" href="https://linkedin.com/in/nathan-wisla" target="_blank">
+                    <img src="images/icons/linkedin.svg" style="height:2em">
+                </a>
+                <a class="btn" href="https://github.com/nathanwisla" target="_blank">
+                    <img src="images/icons/github.svg" style="height:2em">
+                </a>
+            </div>
+
+        </div>
+    </nav>
+</header>
+
+
+<main class="position-absolute">
+
+    <div id="home" class="subject">
+        <div class="container">
+            <div class="row">
+                <img src="images/boom headshot.jpg" class="col rounded"/>
+                <div class="col">
+                    <h1>Nathan Wisla</h1>
+                    <p>
+                        I am an Experienced Data Analyst with a large background in GIS and mapping technologies.
+                        With an eye for design, I am an organized and proficient programmer and GIS analyst, who is
+                        constantly working with best practices and looking for ways to better optimize my workflow.
+                    </p>
+                    <p>
+                        I am constantly tinkering with new and interesting technologies, and am an agile and creative
+                        problem solver with a degree in mathematics to prove it.
+                    </p>
+                    <p>
+                        Check out my resume profile, cartography gallery, and completed published projects by clicking
+                        on the tabs at the top of the page!
+                        You can find my project repositories by following the projects link
+                        I am constantly updating projects on Twitter and LinkedIn as well.
+                    </p>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+    <div id="profile" class="subject" style="">
+        <h2 class="text-center bg-secondary">Work Profile</h2>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <h3 class="accordion">Skills</h3>
+                <div class="container">
+                    <ul class="row">
+                        <li class="col-6">Excellent Communicator</li>
+                        <li class="col-6">C# .NET, Java, Python, front-end web development, MatLab, R</li>
+                        <li class="col-6">
+                            Database Management with Oracle Spatial, PL/SQL, SQLPlus, PostgreSQL/PostGIS, and SQLite
+                        </li>
+                        <li class="col-6">
+                            Proficient with ArcGIS Desktop, ArcGIS Pro, QGIS, PostGIS, and PCI Geomatica
+                        </li>
+                        <li class="col-6">
+                            Knowledge of Remote Sensing Systems: orthorectification, image enhancement, and
+                            classification
+                        </li>
+                        <li class="col-6">
+                            Proficient with Adobe Photoshop, Illustrator, Premiere, and AfterEffects
+                        </li>
+                    </ul>
+                </div>
+
+            </li>
+
+
+            <li class="list-group-item">
+
+                <h3 class="accordion pointer" data-toggle="collapse" data-target="#collapseOne">Education</h3>
+
+                <div id="collapseOne" class="collapse">
+                    <div class="card">
+                        <h4 class="card-header"><span class="highlight-green">Advanced Diploma, Geographic Information Systems (GIS) |</span>
+                            NSCC Centre of Geographic Sciences (COGS)</h4>
+                        <p>I Specialized in Geographic Information Systems (GIS) with a focus in Web Programming,
+                            Spatial
+                            Data Analytics and Geoprocessing.<br>
+                            In my time at COGS, I learned the fundamentals of using GIS, Relational Database Management
+                            (SQL), and
+                            honed my skills with Python and JavaScript, while learning data analytics with R, and
+                            fundamentals of remote sensing systems.
+                        </p>
+                        <ul>
+                            <li>In JavaScript, I know how to program with the Leaflet, OpenLayers and ArcGIS APIs.</li>
+                            <li>In Python, ArcPy was extensively used for Geoprocessing.</li>
+                            <li>
+                                I am comfortable in using the ArcGIS Desktop, ArcGIS Pro, ArcGIS Online, QGIS and PCI
+                                Geomatica environments
+
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h4 class="card-header"><span
+                                class="highlight-green">Bachelor of Science With Distinction |</span>
+                            University of Alberta</h4>
+                        <p> My major was mathematics and physics, with a history minor and a focus in computer
+                            science.<br>
+                            My time at the University of Alberta yielded me a large problem-solving toolbox:
+                        </p>
+                        <ul>
+                            <li> As a mathematician I learned numerical and complex analysis, discrete mathematics,
+                                linear
+                                algebra, modeling with differential equations, and representation theory of finite
+                                groups.
+                            </li>
+                            <li>Physics taught me laboratory procedures, electricity and magnetism, quantum physics, and
+                                astrophysics.
+                            </li>
+                            <li>Through computer science, I know data structures, algorithms and numerical method
+                                computation.
+                                <ul>
+                                    <li>Python</li>
+                                    <li>Java</li>
+                                    <li>MatLab</li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item">
+                <h3 class="accordion pointer" data-toggle="collapse" data-target="#collapseTwo">Work Experience</h3>
+                <div id="collapseTwo" class="collapse">
+                    <div class="card">
+                        <h4 class="card-header"><span class="highlight-green"> Benchmark Tester, Team Lead | </span>
+                            KCC Tech</h4>
+                        <p>2019</p>
+                        <p>I was a part of a contract from Rogers that tested the cellular network across Canada.
+                            Responsibilities included:</p>
+                        <ul>
+                            <li>Delivery of data collection services following a strict deadline</li>
+                            <li>Operation of a Test Mobile System (TEMS)</li>
+                            <li>Active operation of NMEA GPS routers installed in work vehicles</li>
+                            <li>Troubleshooting Windows and Android devices</li>
+                            <li>Interface communications between companies at ground level, interpersonal communication
+                                for crew morale
+                            </li>
+                            <li>Ensuring reasonable paid working hours based on deadline pushes and external delaying
+                                factors
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h4 class="card-header"><span class="highlight-green"> Maintenance Service Worker | </span>
+                            Parkland County</h4>
+                        <p>2018-2019</p>
+                        <p>For the water and wastewater department at Parkland County, I was required to provide
+                            preventative maintenance on infrastructure Responsibilities included:</p>
+                        <ul>
+                            <li>Sampling data for Alberta Environment</li>
+                            <li>Alberta One Call Click-Before-You-Dig utility locating</li>
+                            <li>Blueprint and map analysis</li>
+                            <li>Construction site meetings and over-the-phone utility location consultation</li>
+                            <li>Workflow automation</li>
+                            <li>Data entry</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h4 class="card-header"><span class="highlight-green"> Sports Data Analyst | </span>
+                            Sporting Index (SPIN) Services Canada</h4>
+                        <p>2017-2019</p>
+                        <p>For SPIN services, I traded live betting odds of major American sports matches, which scoped
+                            the NHL, NBA, MLS and MLB. Responsibilities included:</p>
+                        <ul>
+                            <li>Trading live betting odds and ensuring they were competitive with industry</li>
+                            <li>Manipulating live pricing models on the-fly-based on fluctuating price changes</li>
+                            <li>Multitasking by trading up to eight games at a time</li>
+                            <li>Bet settling</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h4 class="card-header"><span
+                                class="highlight-green"> Teaching Assistant, Linear Algebra | </span>
+                            University of Alberta</h4>
+                        <p>2016-2017</p>
+                        <p>For the University of Alberta, I was the TA for all math first-year courses at Augustana
+                            Campus. Responsibilities included: </p>
+                        <ul>
+                            <li>Supporting the professor in-class while teaching lectures</li>
+                            <li>Effective communication of abstract ideas and concepts to struggling students</li>
+                            <li>Office hours for one-on-one and group tutoring sessions, tutoring also expanded into
+                                computer science and physics
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+    <div id="gallery" class="subject">
+        <div id="flex-container" class="d-flex justify-content-center flex-wrap">
+            <img class="img-thumbnail" src="images/gallery/Aurora.png"/>
+            <video class="img-thumbnail" src="images/gallery/UTM.mp4" autoplay loop></video>
+            <img class="img-thumbnail" src="images/gallery/Viewshed Layout.png"/>
+            <img class="img-thumbnail" src="images/gallery/Aspect-Slope Layout.png"/>
+            <img class="img-thumbnail" src="images/gallery/SupervisedClassification.png"/>
+            <img class="img-thumbnail" src="images/gallery/Spilhaus.png"/>
+            <img class="img-thumbnail" src="images/gallery/EdmontonTrees.png"/>
+            <img class="img-thumbnail" src="images/gallery/NSQuadrat.png"/>
+            <img class="img-thumbnail" src="images/gallery/Krig.png"/>
+            <img class="img-thumbnail" src="images/gallery/EdmontonSmiley.png"/>
+            <video class="img-thumbnail" src="images/gallery/World%20Shipping%201770Twitter.mp4" autoplay loop></video>
+            <img class="img-thumbnail" src="images/gallery/Oso Mud Slide.gif"/>
+        </div>
+    </div>
+
+
+    <div class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Modal body text goes here.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer></footer>
 </body>
 </html>

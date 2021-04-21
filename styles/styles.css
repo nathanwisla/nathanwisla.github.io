@@ -3,3 +3,57 @@
   Author : Nathan Wisla
   Date   : April 20, 2021
 */
+
+
+.highlight-green {
+    color: #549E39;
+    font-weight: bold;
+}
+
+.card p {
+    margin-left: 20px;
+}
+
+.card {
+    padding-bottom: 10px;
+}
+
+.pointer, .nav-item {
+    cursor: pointer;
+}
+
+.disabled {
+    cursor: default;
+}
+
+.accordion {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+.list-group-item {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+a {
+    cursor: inherit;
+}
+
+#navbarSupportedContent {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.position-absolute {
+    left: 0;
+    right: 0;
+}
+
+.img-thumbnail {
+    max-height : 33rem;
+    width: auto;
+
+}
+
+.rounded {
+    border-radius: 3rem !important;
+}
