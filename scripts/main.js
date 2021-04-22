@@ -8,24 +8,25 @@
 
 let m = {};
 
-m.images = ['/images/gallery']
+
 
 $(document).ready(() => {
 
     let topicDivs = $('.subject'),
         buttons = $('.click'),
+        accordion = $('.accordion'),
         activeButtons = $('.active');
 
     topicDivs.hide();
     $('#home').show();
 
     activeButtons.click(e => {
-        console.log('assdfadfasfsaf');
         return false;
     });
 
 
     buttons.click(e => m.fadeNavigation(e, buttons, topicDivs, 300));
+    accordion.click(e => m.accordionArrowToggle(e));
 
 
 });
@@ -60,5 +61,15 @@ m.fadeNavigation = function (event, buttons, linkedElements, fadeRate) {
         );
         return true;
     }
+}
+
+m.accordionArrowToggle = function (event) {
+    let target = $(event.target);
+    if (!target.hasClass('collapsed')) {
+        target.removeClass('active');
+    } else {
+        target.addClass('active');
+    }
+
 }
 
