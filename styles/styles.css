@@ -73,6 +73,10 @@
     border-radius: 3rem !important;
 }
 
+.row {
+    align-items: center;
+}
+
 #navbarSupportedContent {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
