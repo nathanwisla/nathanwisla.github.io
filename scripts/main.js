@@ -8,8 +8,6 @@
 
 let m = {};
 
-
-
 $(document).ready(() => {
 
     let topicDivs = $('.subject'),
@@ -63,6 +61,10 @@ m.fadeNavigation = function (event, buttons, linkedElements, fadeRate) {
     }
 }
 
+/**
+ * Toggles an accordion arrow that is animated by CSS selectors
+ * @param event {event}
+ */
 m.accordionArrowToggle = function (event) {
     let target = $(event.target);
     if (!target.hasClass('collapsed')) {
@@ -70,6 +72,5 @@ m.accordionArrowToggle = function (event) {
     } else {
         target.addClass('active');
     }
-
 }
 
