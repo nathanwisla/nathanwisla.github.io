@@ -20,11 +20,25 @@
 
 }
 
-.accordion::after, .accordion.active:hover::after, .accordion.collapsed:hover::after {
+@media (hover:hover) and (pointer:fine) {
+
+    .accordion.active:hover::after,
+    .accordion.collapsed:hover::after {
+        transform: rotate(90deg);
+    }
+
+    .accordion.collapsed:hover::after {
+        transform: rotate(0deg);
+    }
+
+
+}
+
+.accordion::after {
     transform: rotate(90deg);
 }
 
-.accordion.active::after, .accordion.collapsed:hover::after {
+.accordion.active::after {
     transform: rotate(0deg);
 }
 
@@ -60,7 +74,7 @@
     padding-bottom: 0;
 }
 
-.nav-item, .pointer{
+.nav-item, .pointer {
     cursor: pointer;
 }
 
