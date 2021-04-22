@@ -3,12 +3,14 @@
 <head>
 
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Nathan Wisla's Profile</title>
 
 
     <!--    styles-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
 
     <link rel="stylesheet" href="styles/styles.css">
     <!--    scripts-->
@@ -80,12 +82,13 @@
 </header>
 
 
-<main class="position-absolute">
+<main class="position-absolute tab">
 
     <div id="home" class="subject">
+
         <div class="container">
             <div class="row">
-                <img src="images/boom headshot.jpg" class="col rounded"/>
+                <img src="images/boom headshot.jpg" class="col rounded" style="width:25%"/>
                 <div class="col">
                     <h1>Nathan Wisla</h1>
                     <p>
@@ -112,10 +115,10 @@
 
     </div>
     <div id="profile" class="subject" style="">
-        <h2 class="text-center bg-secondary">Work Profile</h2>
-        <ul class="list-group">
-            <li class="list-group-item">
-                <h3 class="accordion">Skills</h3>
+        <div class="container">
+            <h2 class="text-center bg-secondary">Work Profile</h2>
+            <div>
+                <h3>Skills</h3>
                 <div class="container">
                     <ul class="row">
                         <li class="col-6">Excellent Communicator</li>
@@ -136,134 +139,141 @@
                     </ul>
                 </div>
 
-            </li>
+            </div>
+            <ul class="list-group">
+                <li class="list-group-item">
 
+                    <h3 class="accordion pointer collapsed" data-toggle="collapse" data-target="#collapseOne">Education</h3>
 
-            <li class="list-group-item">
+                    <div id="collapseOne" class="collapse">
+                        <div class="card">
+                            <h4 class="card-header"><span class="highlight-green">Advanced Diploma, Geographic Information Systems (GIS) |</span>
+                                NSCC Centre of Geographic Sciences (COGS)</h4>
+                            <p>I Specialized in Geographic Information Systems (GIS) with a focus in Web Programming,
+                                Spatial
+                                Data Analytics and Geoprocessing.<br>
+                                In my time at COGS, I learned the fundamentals of using GIS, Relational Database
+                                Management
+                                (SQL), and
+                                honed my skills with Python and JavaScript, while learning data analytics with R, and
+                                fundamentals of remote sensing systems.
+                            </p>
+                            <ul>
+                                <li>In JavaScript, I know how to program with the Leaflet, OpenLayers and ArcGIS APIs.
+                                </li>
+                                <li>In Python, ArcPy was extensively used for Geoprocessing.</li>
+                                <li>
+                                    I am comfortable in using the ArcGIS Desktop, ArcGIS Pro, ArcGIS Online, QGIS and
+                                    PCI
+                                    Geomatica environments
 
-                <h3 class="accordion pointer" data-toggle="collapse" data-target="#collapseOne">Education</h3>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card">
+                            <h4 class="card-header"><span
+                                    class="highlight-green">Bachelor of Science With Distinction |</span>
+                                University of Alberta</h4>
+                            <p> My major was mathematics and physics, with a history minor and a focus in computer
+                                science.<br>
+                                My time at the University of Alberta yielded me a large problem-solving toolbox:
+                            </p>
+                            <ul>
+                                <li> As a mathematician I learned numerical and complex analysis, discrete mathematics,
+                                    linear
+                                    algebra, modeling with differential equations, and representation theory of finite
+                                    groups.
+                                </li>
+                                <li>Physics taught me laboratory procedures, electricity and magnetism, quantum physics,
+                                    and
+                                    astrophysics.
+                                </li>
+                                <li>Through computer science, I know data structures, algorithms and numerical method
+                                    computation.
+                                    <ul>
+                                        <li>Python</li>
+                                        <li>Java</li>
+                                        <li>MatLab</li>
+                                    </ul>
+                                </li>
 
-                <div id="collapseOne" class="collapse">
-                    <div class="card">
-                        <h4 class="card-header"><span class="highlight-green">Advanced Diploma, Geographic Information Systems (GIS) |</span>
-                            NSCC Centre of Geographic Sciences (COGS)</h4>
-                        <p>I Specialized in Geographic Information Systems (GIS) with a focus in Web Programming,
-                            Spatial
-                            Data Analytics and Geoprocessing.<br>
-                            In my time at COGS, I learned the fundamentals of using GIS, Relational Database Management
-                            (SQL), and
-                            honed my skills with Python and JavaScript, while learning data analytics with R, and
-                            fundamentals of remote sensing systems.
-                        </p>
-                        <ul>
-                            <li>In JavaScript, I know how to program with the Leaflet, OpenLayers and ArcGIS APIs.</li>
-                            <li>In Python, ArcPy was extensively used for Geoprocessing.</li>
-                            <li>
-                                I am comfortable in using the ArcGIS Desktop, ArcGIS Pro, ArcGIS Online, QGIS and PCI
-                                Geomatica environments
-
-                            </li>
-                        </ul>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="card">
-                        <h4 class="card-header"><span
-                                class="highlight-green">Bachelor of Science With Distinction |</span>
-                            University of Alberta</h4>
-                        <p> My major was mathematics and physics, with a history minor and a focus in computer
-                            science.<br>
-                            My time at the University of Alberta yielded me a large problem-solving toolbox:
-                        </p>
-                        <ul>
-                            <li> As a mathematician I learned numerical and complex analysis, discrete mathematics,
-                                linear
-                                algebra, modeling with differential equations, and representation theory of finite
-                                groups.
-                            </li>
-                            <li>Physics taught me laboratory procedures, electricity and magnetism, quantum physics, and
-                                astrophysics.
-                            </li>
-                            <li>Through computer science, I know data structures, algorithms and numerical method
-                                computation.
-                                <ul>
-                                    <li>Python</li>
-                                    <li>Java</li>
-                                    <li>MatLab</li>
-                                </ul>
-                            </li>
+                </li>
+                <li class="list-group-item">
+                    <h3 class="accordion pointer collapsed" data-toggle="collapse" data-target="#collapseTwo">Work Experience</h3>
+                    <div id="collapseTwo" class="collapse">
+                        <div class="card">
+                            <h4 class="card-header"><span class="highlight-green"> Benchmark Tester, Team Lead | </span>
+                                KCC Tech</h4>
+                            <p>2019</p>
+                            <p>I was a part of a contract from Rogers that tested the cellular network across Canada.
+                                Responsibilities included:</p>
+                            <ul>
+                                <li>Delivery of data collection services following a strict deadline</li>
+                                <li>Operation of a Test Mobile System (TEMS)</li>
+                                <li>Active operation of NMEA GPS routers installed in work vehicles</li>
+                                <li>Troubleshooting Windows and Android devices</li>
+                                <li>Interface communications between companies at ground level, interpersonal
+                                    communication
+                                    for crew morale
+                                </li>
+                                <li>Ensuring reasonable paid working hours based on deadline pushes and external
+                                    delaying
+                                    factors
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card">
+                            <h4 class="card-header"><span class="highlight-green"> Maintenance Service Worker | </span>
+                                Parkland County</h4>
+                            <p>2018-2019</p>
+                            <p>For the water and wastewater department at Parkland County, I was required to provide
+                                preventative maintenance on infrastructure. Responsibilities included:</p>
+                            <ul>
+                                <li>Sampling data for Alberta Environment</li>
+                                <li>Alberta One Call Click-Before-You-Dig utility locating</li>
+                                <li>Blueprint and map analysis</li>
+                                <li>Construction site meetings and over-the-phone utility location consultation</li>
+                                <li>Workflow automation</li>
+                                <li>Data entry</li>
+                            </ul>
+                        </div>
+                        <div class="card">
+                            <h4 class="card-header"><span class="highlight-green"> Sports Data Analyst | </span>
+                                Sporting Index (SPIN) Services Canada</h4>
+                            <p>2017-2019</p>
+                            <p>For SPIN services, I traded live betting odds of major American sports matches, which
+                                scoped
+                                the NHL, NBA, MLS and MLB. Responsibilities included:</p>
+                            <ul>
+                                <li>Trading live betting odds and ensuring they were competitive with industry</li>
+                                <li>Manipulating live pricing models on the-fly-based on fluctuating price changes</li>
+                                <li>Multitasking by trading up to eight games at a time</li>
+                                <li>Bet settling</li>
+                            </ul>
+                        </div>
+                        <div class="card">
+                            <h4 class="card-header"><span
+                                    class="highlight-green"> Teaching Assistant, Linear Algebra | </span>
+                                University of Alberta</h4>
+                            <p>2016-2017</p>
+                            <p>For the University of Alberta, I was the TA for all math first-year courses at Augustana
+                                Campus. Responsibilities included: </p>
+                            <ul>
+                                <li>Supporting the professor in-class while teaching lectures</li>
+                                <li>Effective communication of abstract ideas and concepts to struggling students</li>
+                                <li>Office hours for one-on-one and group tutoring sessions, tutoring also expanded into
+                                    computer science and physics
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
 
-                        </ul>
-                    </div>
-                </div>
-            </li>
-            <li class="list-group-item">
-                <h3 class="accordion pointer" data-toggle="collapse" data-target="#collapseTwo">Work Experience</h3>
-                <div id="collapseTwo" class="collapse">
-                    <div class="card">
-                        <h4 class="card-header"><span class="highlight-green"> Benchmark Tester, Team Lead | </span>
-                            KCC Tech</h4>
-                        <p>2019</p>
-                        <p>I was a part of a contract from Rogers that tested the cellular network across Canada.
-                            Responsibilities included:</p>
-                        <ul>
-                            <li>Delivery of data collection services following a strict deadline</li>
-                            <li>Operation of a Test Mobile System (TEMS)</li>
-                            <li>Active operation of NMEA GPS routers installed in work vehicles</li>
-                            <li>Troubleshooting Windows and Android devices</li>
-                            <li>Interface communications between companies at ground level, interpersonal communication
-                                for crew morale
-                            </li>
-                            <li>Ensuring reasonable paid working hours based on deadline pushes and external delaying
-                                factors
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="card">
-                        <h4 class="card-header"><span class="highlight-green"> Maintenance Service Worker | </span>
-                            Parkland County</h4>
-                        <p>2018-2019</p>
-                        <p>For the water and wastewater department at Parkland County, I was required to provide
-                            preventative maintenance on infrastructure Responsibilities included:</p>
-                        <ul>
-                            <li>Sampling data for Alberta Environment</li>
-                            <li>Alberta One Call Click-Before-You-Dig utility locating</li>
-                            <li>Blueprint and map analysis</li>
-                            <li>Construction site meetings and over-the-phone utility location consultation</li>
-                            <li>Workflow automation</li>
-                            <li>Data entry</li>
-                        </ul>
-                    </div>
-                    <div class="card">
-                        <h4 class="card-header"><span class="highlight-green"> Sports Data Analyst | </span>
-                            Sporting Index (SPIN) Services Canada</h4>
-                        <p>2017-2019</p>
-                        <p>For SPIN services, I traded live betting odds of major American sports matches, which scoped
-                            the NHL, NBA, MLS and MLB. Responsibilities included:</p>
-                        <ul>
-                            <li>Trading live betting odds and ensuring they were competitive with industry</li>
-                            <li>Manipulating live pricing models on the-fly-based on fluctuating price changes</li>
-                            <li>Multitasking by trading up to eight games at a time</li>
-                            <li>Bet settling</li>
-                        </ul>
-                    </div>
-                    <div class="card">
-                        <h4 class="card-header"><span
-                                class="highlight-green"> Teaching Assistant, Linear Algebra | </span>
-                            University of Alberta</h4>
-                        <p>2016-2017</p>
-                        <p>For the University of Alberta, I was the TA for all math first-year courses at Augustana
-                            Campus. Responsibilities included: </p>
-                        <ul>
-                            <li>Supporting the professor in-class while teaching lectures</li>
-                            <li>Effective communication of abstract ideas and concepts to struggling students</li>
-                            <li>Office hours for one-on-one and group tutoring sessions, tutoring also expanded into
-                                computer science and physics
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </li>
-
-        </ul>
+            </ul>
+        </div>
     </div>
     <div id="gallery" class="subject">
         <div id="flex-container" class="d-flex justify-content-center flex-wrap">
