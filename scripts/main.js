@@ -10,7 +10,7 @@ let m = {};
 
 $(document).ready(() => {
 
-    let topicDivs = $('.subject'),
+    let topicDivs = $('.tab'),
         buttons = $('.click'),
         accordion = $('.accordion'),
         activeButtons = $('.active');
