@@ -6,7 +6,7 @@
 
 .accordion {
     padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
+    padding-bottom: 0.75rem
 }
 
 .accordion::after {
@@ -16,93 +16,97 @@
     position: absolute;
     font-family: "FontAwesome";
     transition: transform;
-    transition-duration: 0.3s;
+    transition-duration: 0.3s
 
 }
 
 @media (hover:hover) and (pointer:fine) {
 
     .accordion:hover::after {
-        transition-delay: 0.3s;
+        transition-delay: 0.3s
     }
     .accordion.active:hover::after,
     .accordion.collapsed:hover::after {
-        transform: rotate(90deg);
+        transform: rotate(90deg)
     }
 
     .accordion.collapsed:hover::after {
-        transform: rotate(0deg);
+        transform: rotate(0deg)
     }
 
 }
 
 .accordion::after {
-    transform: rotate(90deg);
+    transform: rotate(90deg)
 }
 
 .accordion.active::after {
-    transform: rotate(0deg);
+    transform: rotate(0deg)
 }
 
 .card p {
-    margin-left: 20px;
+    margin-left: 20px
 }
 
 .card {
-    padding-bottom: 10px;
+    padding-bottom: 10px
 }
 
 .disabled {
-    cursor: default;
+    cursor: default
 }
 
 .g-container {
     display: grid;
     justify-items: center;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr))
 
 }
 
 .highlight-green {
     color: #549E39;
-    font-weight: bold;
+    font-weight: bold
 }
 
 .img-thumbnail {
     max-height: 33rem;
-    width: auto;
+    width: auto
 
 }
 
 .list-group-item {
     padding-top: 0;
-    padding-bottom: 0;
+    padding-bottom: 0
 }
 
 .nav-item, .pointer {
-    cursor: pointer;
+    cursor: pointer
 }
 
 .position-absolute {
     left: 0;
-    right: 0;
+    right: 0
 }
 
 .rounded {
-    border-radius: 3rem !important;
+    border-radius: 3rem !important
 }
 
 .row {
-    align-items: flex-start;
+    align-items: flex-start
 }
 
 #navbarSupportedContent {
     padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.5rem
 }
 
 a {
-    cursor: inherit;
+    cursor: inherit
+}
+
+h5 {
+    font-weight: bold
 }
 
 ul {
