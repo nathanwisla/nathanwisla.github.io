@@ -67,10 +67,10 @@ m.fadeNavigation = function (event, buttons, linkedElements, fadeRate) {
  */
 m.accordionArrowToggle = function (event) {
     let target = $(event.target);
-    if (!target.hasClass('collapsed')) {
-        target.removeClass('active');
-    } else {
+    if (target.hasClass('collapsed')) {
         target.addClass('active');
+    } else {
+        target.removeClass('active');
     }
 }
 
