@@ -56,6 +56,13 @@
     cursor: default;
 }
 
+.g-container {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+
+}
+
 .highlight-green {
     color: #549E39;
     font-weight: bold;
@@ -86,7 +93,7 @@
 }
 
 .row {
-    align-items: center;
+    align-items: flex-start;
 }
 
 #navbarSupportedContent {
@@ -101,3 +108,4 @@ a {
 ul {
     list-style-type: circle
 }
+
