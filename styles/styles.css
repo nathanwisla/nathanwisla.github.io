@@ -22,6 +22,9 @@
 
 @media (hover:hover) and (pointer:fine) {
 
+    .accordion:hover::after {
+        transition-delay: 0.3s;
+    }
     .accordion.active:hover::after,
     .accordion.collapsed:hover::after {
         transform: rotate(90deg);
@@ -31,7 +34,6 @@
         transform: rotate(0deg);
     }
 
-
 }
 
 .accordion::after {
@@ -40,10 +42,6 @@
 
 .accordion.active::after {
     transform: rotate(0deg);
-}
-
-.accordion:hover::after {
-    transition-delay: 0.3s;
 }
 
 .card p {
